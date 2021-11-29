@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
+    "firebase": "^9.5.0",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.3"
+  },
+  "name": "to-do-app",
+  "private": true,
+  "description": "- Download the files from teams week-012 class-2 - Download lab from assessments practical 3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@svgr/cli": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.4",
+    "sass": "^1.43.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rm -rf .next node_modules",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
