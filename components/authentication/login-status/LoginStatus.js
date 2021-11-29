@@ -10,6 +10,7 @@ import {LoginStatus} from './styles'
 
 function UserLoginStatus({ size, color, status, ...props }) {
     const user = useAuth()
+    const router = useRouter()
 
     function handleClick (){
       // sign user out
