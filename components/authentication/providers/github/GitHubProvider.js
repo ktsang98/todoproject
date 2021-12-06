@@ -12,7 +12,7 @@ function GitHubProvider({ children, ...props }) {
   const router = useRouter()
   const user = useAuth()
   const [isValidUser, setIsValidUser] = useState(null)
-  const provider = new GitHubAuthProvider()
+  const provider = new GithubAuthProvider();
 
   // request a signin with a pop up window -> pass the provider
   async function requestLogin () {
@@ -29,7 +29,7 @@ function GitHubProvider({ children, ...props }) {
     router.push('/todo')
   }
   return (
-    <ProviderButton>
+    <ProviderButton onClick={handleClick} { ...props }>
       <div>
         <Image
           src={github}
