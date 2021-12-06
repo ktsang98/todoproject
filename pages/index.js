@@ -1,5 +1,5 @@
 import { AppBar } from "../components/appbar"
-import { GoogleProvider } from "../components/authentication/providers"
+import { GoogleProvider, GitHubProvider } from "../components/authentication/providers"
 import { Title } from "../ui/title"
 import { Spacer } from "../ui/spacers"
 import {UserLogin} from "../components/authentication/user-login"
@@ -15,7 +15,8 @@ function index (){
                     <Title>Account Login</Title>
                     </PageHeader>
                <PageBody>
-                   <GoogleProvider>With Google</GoogleProvider>
+                   <GoogleProvider>With Googlae</GoogleProvider>
+                   <GitHubProvider>With Github</GitHubProvider>
                    <Spacer className="spacing" >OR</Spacer>
                    <UserLogin/>
                 </PageBody>             
