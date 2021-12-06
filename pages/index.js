@@ -15,7 +15,7 @@ function index (){
                     <Title>Account Login</Title>
                     </PageHeader>
                <PageBody>
-                   <GoogleProvider>With Google</GoogleProvider>
+                   <GoogleProvider style={{marginBottom:"1.5rem"}}>With Google</GoogleProvider>
                    <GitHubProvider>With Github</GitHubProvider>
                    <Spacer className="spacing" >OR</Spacer>
                    <UserLogin/>
