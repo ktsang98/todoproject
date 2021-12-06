@@ -15,7 +15,7 @@ function index (){
                     <Title>Account Login</Title>
                     </PageHeader>
                <PageBody>
-                   <GoogleProvider>With Googlae</GoogleProvider>
+                   <GoogleProvider>With Google</GoogleProvider>
                    <GitHubProvider>With Github</GitHubProvider>
                    <Spacer className="spacing" >OR</Spacer>
                    <UserLogin/>
