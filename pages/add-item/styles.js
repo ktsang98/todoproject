@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const AddNewItem = styled.aside`
    
-   margin: 2rem 1rem;
+   max-width: 480px;
+   margin: 2rem auto;
    padding:1rem;
    header{
        margin-bottom: 2rem;
