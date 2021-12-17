@@ -23,13 +23,15 @@ function AddNewItemPage({...props}) {
 
   function handleSubmit(e) {
     e.preventDefault()
+    console.log(description, id)
+    console.log(user.uid)
     const toDo = {
       id,
       description
     }
     console.log(toDo)
 
-    const docPath = `/users/${user.uid}`
+    const docPath = `/users/d3hmRyDjrrVyKRuIv1KlrWZa1Ng1`
 
     const userDoc = doc(db, docPath)
     getDoc(userDoc).then(doc=>{
