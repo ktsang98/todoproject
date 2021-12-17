@@ -5,7 +5,7 @@ import {AppBar} from 'components/appbar'
 
 import { Brand } from "components/brand";
  
-function AddNewItemPage({...props}) {
+function AddNewItem({...props}) {
  
 
   return (
@@ -15,4 +15,4 @@ function AddNewItemPage({...props}) {
   );
 }
 
-export default AddNewItemPage;
+export default AddNewItem;
